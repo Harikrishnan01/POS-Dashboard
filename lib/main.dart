@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:pos/screens/new_home.dart';
+import 'package:pos/screens/screen_cart.dart';
 import 'package:pos/screens/screen_home.dart';
 
 void main(List<String> args) {
@@ -12,7 +14,7 @@ class hari extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ScreenHome(),
+      home: NewHome(),
     );
   }
 }
